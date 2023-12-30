@@ -297,10 +297,35 @@ footer {
     }
 }
 @media  (max-width: 640px){
+  .header-title {
+    text-align: center;
+  }
+  .border-grid-title {
+    font-size: 24px;
+    left: 12px;
+  }
+  .product {
+width: 48%;
+  }
 .nav-menu {
     display: block;
 }
 .nav-link{
     display: none;
 }
+}
+@media (max-width: 480px;) {
+  .header-grid-title {
+    bottom: 4px;
+    left: 4px;
+  }
+  .product {
+    width: 100%;
+  }
+  .newsletter-form{
+    flex-direction: column;
+  }
+  .newsletter-form-input {
+    text-align: center;
+  }
 }
